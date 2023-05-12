@@ -1,0 +1,5 @@
+#venvs
+cyber_venv/
+
+#.env var
+.env
