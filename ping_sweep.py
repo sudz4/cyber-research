@@ -1,5 +1,7 @@
 from scapy.all import ICMP, IP, sr1, TCP
 
+#ping sweep program
+
 # Specify the target hosts range
 target_ip = "192.168.1.1/24"
 # Send ICMP echo requests (ping) to the target hosts
