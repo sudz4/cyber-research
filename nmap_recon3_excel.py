@@ -1,6 +1,6 @@
 import nmap
 import pandas as pd
-
+#ddd
 def scan_network(segment):
     nm = nmap.PortScanner()
     res = nm.scan(hosts=segment, arguments='-sS -O -sV')
@@ -30,6 +30,6 @@ web_services_df = pd.DataFrame(web_services_data)
 business_services_df = pd.DataFrame(business_services_data)
 
 # Now, we create an ExcelWriter object and write the dataframes to excel sheets
-with pd.ExcelWriter('network_inventory.xlsx', engine='xlsxwriter') as writer:
+with pd.ExcelWriter('network_inventory_2.xlsx', engine='xlsxwriter') as writer:
     web_services_df.to_excel(writer, sheet_name='Web Services', index=False)
     business_services_df.to_excel(writer, sheet_name='Business Services', index=False)
