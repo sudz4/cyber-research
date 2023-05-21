@@ -3,3 +3,6 @@ cyber_venv/
 
 #.env var
 .env
+
+# token for github push
+/tokenz.txt
