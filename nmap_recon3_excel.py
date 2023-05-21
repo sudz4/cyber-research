@@ -29,12 +29,8 @@ business_services_data = scan_network(business_services_segment)
 web_services_df = pd.DataFrame(web_services_data)
 business_services_df = pd.DataFrame(business_services_data)
 
-<<<<<<< HEAD
+
 # Now, we create an ExcelWriter object and write the dataframes to excel sheets
 with pd.ExcelWriter('network_inventory_44.xlsx', engine='xlsxwriter') as writer:
-=======
-# create ExcelWriter object to write the dataframes to excel sheets (in the same excel workbook though)
-with pd.ExcelWriter('network_inventory_4.xlsx', engine='xlsxwriter') as writer:
->>>>>>> 9e712ad (idunno)
     web_services_df.to_excel(writer, sheet_name='Web Services', index=False)
     business_services_df.to_excel(writer, sheet_name='Business Services', index=False)
