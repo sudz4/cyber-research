@@ -1,20 +1,20 @@
-# Nmap 7.93 scan initiated Mon May 22 23:17:42 2023 as: nmap -O -oN /home/kali/Desktop/SCRIPTS/cyber-research/HW2/A1.0_segment_1_host_discovery.txt 172.16.10.0/24
+# Nmap 7.93 scan initiated Tue May 23 00:10:46 2023 as: nmap -O -oN /home/kali/Desktop/SCRIPTS/cyber-research/HW2/A1.0_segment_1_host_discovery.txt 172.16.10.0/24
 Nmap scan report for 172.16.10.1
-Host is up (0.0010s latency).
+Host is up (0.0015s latency).
 All 1000 scanned ports on 172.16.10.1 are in ignored states.
 Not shown: 1000 closed tcp ports (reset)
 Too many fingerprints match this host to give specific OS details
 Network Distance: 1 hop
 
 Nmap scan report for 172.16.10.2
-Host is up (0.00057s latency).
+Host is up (0.00056s latency).
 Not shown: 999 closed tcp ports (reset)
 PORT   STATE SERVICE
 53/tcp open  domain
 No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
 TCP/IP fingerprint:
-OS:SCAN(V=7.93%E=4%D=5/22%OT=53%CT=1%CU=42035%PV=Y%DS=2%DC=I%G=Y%TM=646C306
-OS:C%P=x86_64-pc-linux-gnu)SEQ(SP=107%GCD=1%ISR=10E%TI=Z%CI=I%II=I%TS=A)OPS
+OS:SCAN(V=7.93%E=4%D=5/23%OT=53%CT=1%CU=43300%PV=Y%DS=2%DC=I%G=Y%TM=646C3CD
+OS:C%P=x86_64-pc-linux-gnu)SEQ(SP=108%GCD=1%ISR=107%TI=Z%CI=I%II=I%TS=A)OPS
 OS:(O1=M582ST11NW7%O2=M582ST11NW7%O3=M582NNT11NW7%O4=M582ST11NW7%O5=M582ST1
 OS:1NW7%O6=M582ST11)WIN(W1=6D38%W2=6D38%W3=6D38%W4=6D38%W5=6D38%W6=6D38)ECN
 OS:(R=Y%DF=Y%T=40%W=6E28%O=M582NNSNW7%CC=Y%Q=)T1(R=Y%DF=Y%T=40%S=O%A=S+%F=A
@@ -32,7 +32,7 @@ PORT    STATE  SERVICE
 22/tcp  open   ssh
 80/tcp  open   http
 443/tcp closed https
-Aggressive OS guesses: Linux 3.10 (90%), Linux 3.10 - 4.11 (90%), Linux 3.11 - 3.12 (90%), Crestron XPanel control system (89%), Linux 3.16 (89%), Linux 3.2 (89%), HP P2000 G3 NAS device (89%), OpenWrt Kamikaze 7.09 (Linux 2.6.22) (88%), Linux 2.6.32 (88%), Linux 2.6.32 - 3.1 (88%)
+Aggressive OS guesses: HP P2000 G3 NAS device (90%), Linux 2.6.32 (89%), Linux 2.6.32 - 3.1 (89%), Infomir MAG-250 set-top box (89%), Ubiquiti AirMax NanoStation WAP (Linux 2.6.32) (89%), Linux 3.10 (89%), Linux 3.10 - 4.11 (89%), Linux 3.11 - 3.12 (89%), Linux 3.2 (89%), Linux 3.7 (89%)
 No exact OS matches for host (test conditions non-ideal).
 
 Nmap scan report for 172.16.10.225
@@ -42,8 +42,8 @@ PORT    STATE  SERVICE
 22/tcp  open   ssh
 80/tcp  open   http
 443/tcp closed https
-Aggressive OS guesses: HP P2000 G3 NAS device (91%), Linux 2.6.32 (90%), Infomir MAG-250 set-top box (90%), Ubiquiti AirMax NanoStation WAP (Linux 2.6.32) (90%), Linux 3.10 - 4.11 (90%), Linux 3.11 - 3.12 (90%), Linux 3.2 (90%), Linux 3.7 (90%), Linux 5.0 (90%), Linux 5.1 (90%)
+Aggressive OS guesses: Linux 3.10 (90%), Linux 3.10 - 4.11 (90%), Linux 3.11 - 3.12 (90%), Linux 3.2 (90%), Crestron XPanel control system (89%), Linux 3.16 (89%), HP P2000 G3 NAS device (89%), OpenWrt Kamikaze 7.09 (Linux 2.6.22) (88%), Linux 2.6.32 (88%), Linux 2.6.32 - 3.1 (88%)
 No exact OS matches for host (test conditions non-ideal).
 
 OS detection performed. Please report any incorrect results at https://nmap.org/submit/ .
-# Nmap done at Mon May 22 23:18:04 2023 -- 256 IP addresses (4 hosts up) scanned in 22.33 seconds
+# Nmap done at Tue May 23 00:11:08 2023 -- 256 IP addresses (4 hosts up) scanned in 22.33 seconds
