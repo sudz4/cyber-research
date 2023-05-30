@@ -64,7 +64,8 @@ PORT    STATE  SERVICE VERSION
 |     	1337DAY-ID-38427	7.5	https://vulners.com/zdt/1337DAY-ID-38427	*EXPLOIT*
 |     	PACKETSTORM:127546	6.8	https://vulners.com/packetstorm/PACKETSTORM:127546	*EXPLOIT*
 |     	FDF3DFA1-ED74-5EE2-BF5C-BA752CA34AE8	6.8	https://vulners.com/githubexploit/FDF3DFA1-ED74-5EE2-BF5C-BA752CA34AE8	*EXPLOIT*
-|     	CVE-2021-40438	6.8	https://vulners.com/cve/CVE-2021-40438
+|     	CVE-2021-40438	6.8	https://vulners.com/cve/CVE-2021-40438clear
+
 |     	CVE-2020-35452	6.8	https://vulners.com/cve/CVE-2020-35452
 |     	CVE-2018-1312	6.8	https://vulners.com/cve/CVE-2018-1312
 |     	CVE-2017-15715	6.8	https://vulners.com/cve/CVE-2017-15715
