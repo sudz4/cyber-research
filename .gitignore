@@ -6,3 +6,6 @@ cyber_venv/
 
 # token for github push
 /tokenz.txt
+
+# other stuff
+vulners/

@@ -31,7 +31,7 @@ business_services_df = pd.DataFrame(business_services_data)
 
 
 # Now, we create an ExcelWriter object and write the dataframes to excel sheets
-with pd.ExcelWriter('network_inventory_44.xlsx', engine='xlsxwriter') as writer:
+with pd.ExcelWriter('var_network_inventory.xlsx', engine='xlsxwriter') as writer:
     web_services_df.to_excel(writer, sheet_name='Web Services', index=False)
     business_services_df.to_excel(writer, sheet_name='Business Services', index=False)
 
