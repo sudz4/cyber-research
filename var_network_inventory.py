@@ -10,8 +10,9 @@ def scan_network(segment):
     for host in res['scan'].keys():
         if res['scan'][host]['status']['state'] == 'up':
             osmatch = res['scan'][host].get('osmatch', [])
+            # Take the first osmatch 'name' if available, else empty string
             os_name = osmatch[0]['name'] if osmatch else ''
-
+            
             data = {
                 'Host': host,
                 'Hostname': res['scan'][host]['hostnames'][0]['name'],
@@ -36,10 +37,3 @@ business_services_df = pd.DataFrame(business_services_data)
 with pd.ExcelWriter('var_network_inventory.xlsx', engine='xlsxwriter') as writer:
     web_services_df.to_excel(writer, sheet_name='Web Services', index=False)
     business_services_df.to_excel(writer, sheet_name='Business Services', index=False)
-
-# Print DataFrames to terminal
-print("Web Services DataFrame:")
-print(web_services_df)
-
-print("Business Services DataFrame:")
-print(business_services_df)
