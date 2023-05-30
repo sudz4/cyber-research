@@ -1,5 +1,5 @@
 #venvs
-cyber_venv/
+cyb_venv/
 
 #.env var
 .env
