@@ -1,0 +1,177 @@
+# Nmap 7.93 scan initiated Tue May 30 05:46:49 2023 as: nmap -sV --script-args mincvss=5.0 -oN hw3_nmap_findings.txt vulners 172.16.10.0/24 172.16.1.0/24
+Failed to resolve "vulners".
+Nmap scan report for 172.16.10.1
+Host is up (0.0021s latency).
+All 1000 scanned ports on 172.16.10.1 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+
+Nmap scan report for 172.16.10.2
+Host is up (0.0016s latency).
+Not shown: 999 closed tcp ports (reset)
+PORT   STATE SERVICE    VERSION
+53/tcp open  tcpwrapped
+
+Nmap scan report for 172.16.10.39
+Host is up (0.0015s latency).
+Not shown: 986 filtered tcp ports (no-response), 11 filtered tcp ports (host-prohibited)
+PORT    STATE  SERVICE VERSION
+22/tcp  open   ssh     OpenSSH 7.4 (protocol 2.0)
+80/tcp  open   http    Apache httpd 2.4.6 ((CentOS) PHP/5.4.16)
+443/tcp closed https
+
+Nmap scan report for 172.16.10.225
+Host is up (0.0015s latency).
+Not shown: 986 filtered tcp ports (no-response), 11 filtered tcp ports (host-prohibited)
+PORT    STATE  SERVICE VERSION
+22/tcp  open   ssh     OpenSSH 7.4 (protocol 2.0)
+80/tcp  open   http    Apache httpd 2.4.6 ((CentOS) PHP/5.4.16)
+443/tcp closed https
+
+Nmap scan report for 172.16.1.1
+Host is up (0.0013s latency).
+All 1000 scanned ports on 172.16.1.1 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+MAC Address: FA:16:3E:B2:8F:3F (Unknown)
+
+Nmap scan report for 172.16.1.2
+Host is up (0.0012s latency).
+Not shown: 999 closed tcp ports (reset)
+PORT   STATE SERVICE VERSION
+53/tcp open  domain  dnsmasq 2.76
+MAC Address: FA:16:3E:E0:47:3E (Unknown)
+
+Nmap scan report for 172.16.1.16
+Host is up (0.0012s latency).
+Not shown: 995 filtered tcp ports (no-response)
+PORT     STATE SERVICE       VERSION
+135/tcp  open  msrpc         Microsoft Windows RPC
+139/tcp  open  netbios-ssn   Microsoft Windows netbios-ssn
+445/tcp  open  microsoft-ds?
+3389/tcp open  ms-wbt-server Microsoft Terminal Services
+5357/tcp open  http          Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+MAC Address: FA:16:3E:36:9C:9C (Unknown)
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Nmap scan report for 172.16.1.37
+Host is up (0.00093s latency).
+Not shown: 980 filtered tcp ports (no-response), 19 filtered tcp ports (host-prohibited)
+PORT   STATE SERVICE VERSION
+22/tcp open  ssh     OpenSSH 7.4 (protocol 2.0)
+MAC Address: FA:16:3E:EA:F4:80 (Unknown)
+
+Nmap scan report for 172.16.1.41
+Host is up (0.0012s latency).
+Not shown: 998 filtered tcp ports (no-response)
+PORT     STATE SERVICE       VERSION
+135/tcp  open  msrpc         Microsoft Windows RPC
+3389/tcp open  ms-wbt-server Microsoft Terminal Services
+MAC Address: FA:16:3E:F0:D3:28 (Unknown)
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Nmap scan report for 172.16.1.81
+Host is up (0.0012s latency).
+Not shown: 998 filtered tcp ports (no-response)
+PORT     STATE SERVICE       VERSION
+135/tcp  open  msrpc         Microsoft Windows RPC
+3389/tcp open  ms-wbt-server Microsoft Terminal Services
+MAC Address: FA:16:3E:8D:14:7E (Unknown)
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Nmap scan report for 172.16.1.84
+Host is up (0.0012s latency).
+All 1000 scanned ports on 172.16.1.84 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+MAC Address: FA:16:3E:81:09:6E (Unknown)
+
+Nmap scan report for 172.16.1.156
+Host is up (0.0014s latency).
+Not shown: 999 closed tcp ports (reset)
+PORT   STATE SERVICE VERSION
+22/tcp open  ssh     OpenSSH 8.9p1 Ubuntu 3ubuntu0.1 (Ubuntu Linux; protocol 2.0)
+MAC Address: FA:16:3E:10:2F:BE (Unknown)
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Nmap scan report for 172.16.1.158
+Host is up (0.0011s latency).
+Not shown: 988 filtered tcp ports (no-response)
+PORT     STATE SERVICE       VERSION
+53/tcp   open  domain        Simple DNS Plus
+88/tcp   open  kerberos-sec  Microsoft Windows Kerberos (server time: 2023-05-30 16:47:22Z)
+135/tcp  open  msrpc         Microsoft Windows RPC
+139/tcp  open  netbios-ssn   Microsoft Windows netbios-ssn
+389/tcp  open  ldap          Microsoft Windows Active Directory LDAP (Domain: designworld.com, Site: Default-First-Site-Name)
+445/tcp  open  microsoft-ds  Microsoft Windows Server 2008 R2 - 2012 microsoft-ds (workgroup: DESIGNWORLD)
+464/tcp  open  kpasswd5?
+593/tcp  open  ncacn_http    Microsoft Windows RPC over HTTP 1.0
+636/tcp  open  tcpwrapped
+3268/tcp open  ldap          Microsoft Windows Active Directory LDAP (Domain: designworld.com, Site: Default-First-Site-Name)
+3269/tcp open  tcpwrapped
+3389/tcp open  ms-wbt-server Microsoft Terminal Services
+MAC Address: FA:16:3E:18:62:08 (Unknown)
+Service Info: Host: DW-DC-OC1; OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Nmap scan report for 172.16.1.159
+Host is up (0.0012s latency).
+All 1000 scanned ports on 172.16.1.159 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+MAC Address: FA:16:3E:00:9D:9C (Unknown)
+
+Nmap scan report for 172.16.1.174
+Host is up (0.0015s latency).
+Not shown: 999 closed tcp ports (reset)
+PORT   STATE SERVICE VERSION
+22/tcp open  ssh     OpenSSH 8.9p1 Ubuntu 3ubuntu0.1 (Ubuntu Linux; protocol 2.0)
+MAC Address: FA:16:3E:E1:D3:09 (Unknown)
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Nmap scan report for 172.16.1.191
+Host is up (0.00085s latency).
+Not shown: 980 filtered tcp ports (no-response), 19 filtered tcp ports (host-prohibited)
+PORT   STATE SERVICE VERSION
+22/tcp open  ssh     OpenSSH 7.4 (protocol 2.0)
+MAC Address: FA:16:3E:5C:D7:4B (Unknown)
+
+Nmap scan report for 172.16.1.192
+Host is up (0.0011s latency).
+Not shown: 994 filtered tcp ports (no-response)
+PORT     STATE SERVICE       VERSION
+80/tcp   open  http          Microsoft IIS httpd 10.0
+135/tcp  open  msrpc         Microsoft Windows RPC
+139/tcp  open  netbios-ssn   Microsoft Windows netbios-ssn
+443/tcp  open  https?
+445/tcp  open  microsoft-ds  Microsoft Windows Server 2008 R2 - 2012 microsoft-ds
+3389/tcp open  ms-wbt-server Microsoft Terminal Services
+MAC Address: FA:16:3E:73:C3:FF (Unknown)
+Service Info: OSs: Windows, Windows Server 2008 R2 - 2012; CPE: cpe:/o:microsoft:windows
+
+Nmap scan report for 172.16.1.234
+Host is up (0.0054s latency).
+Not shown: 998 filtered tcp ports (no-response)
+PORT     STATE SERVICE       VERSION
+3389/tcp open  ms-wbt-server Microsoft Terminal Services
+5357/tcp open  http          Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+MAC Address: FA:16:3E:CA:B4:AA (Unknown)
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Nmap scan report for 172.16.1.237
+Host is up (0.0012s latency).
+All 1000 scanned ports on 172.16.1.237 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+MAC Address: FA:16:3E:23:88:62 (Unknown)
+
+Nmap scan report for 172.16.1.251
+Host is up (0.0010s latency).
+Not shown: 998 filtered tcp ports (no-response)
+PORT     STATE SERVICE       VERSION
+135/tcp  open  msrpc         Microsoft Windows RPC
+3389/tcp open  ms-wbt-server Microsoft Terminal Services
+MAC Address: FA:16:3E:55:3B:93 (Unknown)
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Nmap scan report for 172.16.1.188
+Host is up (0.0000060s latency).
+All 1000 scanned ports on 172.16.1.188 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Tue May 30 05:47:38 2023 -- 512 IP addresses (21 hosts up) scanned in 49.57 seconds
