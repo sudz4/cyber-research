@@ -1,0 +1,13 @@
+GVM - Greenbone Vulnerability Management Setup & Configuration
+
+Step 1: sudo apt update
+Step 2: sudo apt upgrade -y
+Step 3: sudo apt dist-upgrade -y
+Step 4: sudo gvm-setup
+Step 5: Take note of the admin username and password
+Step 6: sudo gvm-check-setup
+Step 7: sudo gvm-start
+Step 8: Login with the username and password
+
+To QUIT gvm run: sudo gvm-stop
+
