@@ -8,4 +8,8 @@ cyb_venv/
 /tokenz.txt
 
 # other stuff
+<<<<<<< HEAD
 vulners/
+=======
+nmap-vulners/
+>>>>>>> 8ce5c85 (here)

@@ -1,0 +1,60 @@
+Starting Nmap 7.93 ( https://nmap.org ) at 2023-05-29 15:47 PDT
+Nmap scan report for unknown1666c0737052.attlocal.net (192.168.1.133)
+Host is up (0.016s latency).
+Not shown: 999 closed tcp ports (reset)
+PORT      STATE SERVICE
+62078/tcp open  iphone-sync
+MAC Address: 16:66:C0:73:70:52 (Unknown)
+
+Nmap scan report for machine.attlocal.net (192.168.1.134)
+Host is up (0.19s latency).
+All 1000 scanned ports on machine.attlocal.net (192.168.1.134) are in ignored states.
+Not shown: 1000 filtered tcp ports (no-response)
+MAC Address: 88:4D:7C:5D:3D:CA (Apple)
+
+Nmap scan report for 4zdus.attlocal.net (192.168.1.239)
+Host is up (0.00046s latency).
+Not shown: 996 closed tcp ports (reset)
+PORT      STATE SERVICE
+53/tcp    open  domain
+88/tcp    open  kerberos-sec
+445/tcp   open  microsoft-ds
+49152/tcp open  unknown
+MAC Address: BC:D0:74:6C:9C:4F (Apple)
+
+Nmap scan report for LAPTOP-KO.attlocal.net (192.168.1.240)
+Host is up.
+All 1000 scanned ports on LAPTOP-KO.attlocal.net (192.168.1.240) are in ignored states.
+Not shown: 1000 filtered tcp ports (no-response)
+MAC Address: 3C:E9:F7:5D:38:1A (Intel Corporate)
+
+Nmap scan report for 192.168.1.250
+Host is up (0.013s latency).
+All 1000 scanned ports on 192.168.1.250 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+MAC Address: EC:A9:40:B5:84:32 (Arris Group)
+
+Nmap scan report for CyberX.attlocal.net (192.168.1.253)
+Host is up (0.015s latency).
+Not shown: 998 closed tcp ports (reset)
+PORT      STATE SERVICE
+49152/tcp open  unknown
+62078/tcp open  iphone-sync
+MAC Address: A6:1D:E4:85:F4:3E (Unknown)
+
+Nmap scan report for dsldevice.attlocal.net (192.168.1.254)
+Host is up (0.0058s latency).
+Not shown: 996 closed tcp ports (reset)
+PORT    STATE    SERVICE
+53/tcp  open     domain
+80/tcp  open     http
+111/tcp filtered rpcbind
+443/tcp open     https
+MAC Address: EC:A9:40:B5:84:30 (Arris Group)
+
+Nmap scan report for 192.168.1.142
+Host is up (0.0000010s latency).
+All 1000 scanned ports on 192.168.1.142 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+
+Nmap done: 256 IP addresses (8 hosts up) scanned in 38.76 seconds
